@@ -1,0 +1,7 @@
+console.log(require('fs')
+            .readFileSync('dev/stdin')
+            .toString()
+            .split("\n")
+            .map(x=>Number(x.trim()))
+            .reduce((a,b)=>a+b,0)
+           )
