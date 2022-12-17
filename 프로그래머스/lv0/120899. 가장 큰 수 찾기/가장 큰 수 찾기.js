@@ -1,0 +1,1 @@
+const solution = array=>array.reduce((acc,cur,idx)=>cur>acc[0]?[cur,idx]:acc,[array[0],0])
