@@ -1,0 +1,1 @@
+const solution = rsp =>rsp.split("").map(x=>"520"[("520".indexOf(x)+1)%3]).join("")
