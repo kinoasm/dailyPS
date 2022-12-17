@@ -1,0 +1,1 @@
+const solution = (box,n)=>box.reduce((acc,cur)=>acc*Math.floor(cur/n),1)
