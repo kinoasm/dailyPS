@@ -1,0 +1,1 @@
+const solution=(num,d)=>d[0]==='l'?[...num.slice(1),num[0]]:[num.at(-1),...num.slice(0,num.length-1)]
